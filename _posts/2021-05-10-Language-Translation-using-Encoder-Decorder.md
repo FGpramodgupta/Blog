@@ -23,7 +23,11 @@ categories: media
 ## What is sequence-to-sequence learning?
 Sequence-to-sequence learning (Seq2Seq) is about training models to convert sequences from one domain (e.g. sentences in English) to sequences in another domain (e.g. the same sentences translated to French).
 
+{% highlight ruby %}
 "the cat sat on the mat" -> [Seq2Seq model] -> "le chat etait assis sur le tapis"
+{% endhighlight %}
+
+
 This can be used for machine translation or for free-from question answering (generating a natural language answer given a natural language question) -- in general, it is applicable any time you need to generate text.
 
 There are multiple ways to handle this task, either using RNNs or using 1D convnets. Here we will focus on RNNs.
