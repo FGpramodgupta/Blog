@@ -29,10 +29,24 @@ This can be used for machine translation or for free-from question answering (ge
 
 There are multiple ways to handle this task, either using RNNs or using 1D convnets. Here we will focus on RNNs.
 
-Some applications of Seq2Seq models are Neural machine translation, Image captioning, speech recognition, chat-bot, time-series forecasting e.t.c.
 
 The job of encoder network is to understand the input sequence and create a smaller dimensional representation of it which is in turn forwarded to the decoder network that generates the output.
 
 Input to the encoder may be an encoded sentence (in case of neural machine translation) or image features (in case of image captioning) or even sound waves (in case of speech recognition).
 
+Some applications of Seq2Seq models are Neural machine translation, Image captioning, speech recognition, chat-bot, time-series forecasting e.t.c.
+
+
+# 1. Neural Machine Translation
+
+![English to Franch Translation](https://blog.keras.io/img/seq2seq/seq2seq-teacher-forcing.png)
+
+
+# 2. Speech to text
+
+![Speech to text](https://miro.medium.com/max/3932/1*nJNxFmJaHxyJTtVFkhGTlg.png)
+
+# 3. Image captioning
+
+![Image captioning](https://data-flair.training/blogs/wp-content/uploads/sites/2/2019/11/Model-of-Image-Caption-Generator-python-project.png)
 
