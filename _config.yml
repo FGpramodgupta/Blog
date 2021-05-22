@@ -1,7 +1,7 @@
 title: "Pramod Gupta"
 author: "Pramod Gupta"
 # Short bio or description (displayed in the header)
-description: Visualizing machine learning one concept at a time.
+description: "Manager- IT with a demonstrated history of working in the insurance industry. Skilled in Machine Learning, Deep Learning, Computer Vision, Azure Cloud, etc."
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars0.githubusercontent.com/u/1007956?s=460&v=4
@@ -14,9 +14,9 @@ date_format: "%B %d, %Y"
 # Layout
 
 show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
+show_frame: false           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
-minimal: false             # use a dark header
+minimal: true             # use a dark header
 
 # Menu
 
