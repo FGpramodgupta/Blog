@@ -7,9 +7,18 @@ categories: media
 
 ![Swiss Alps](https://user-images.githubusercontent.com/4943215/55412536-edbba180-5567-11e9-9c70-6d33bca3f8ed.jpg)
 
+## Lists
 
+### Table of contents :
+1. troduction to seq-to-seq models.
+2. encoder.
+3. Decoder.
+4. Code walk-through.
+5. Evaluating performance on test data.
+6. Conclusion.
+7. References.
 
-What is sequence-to-sequence learning?
+## What is sequence-to-sequence learning?
 Sequence-to-sequence learning (Seq2Seq) is about training models to convert sequences from one domain (e.g. sentences in English) to sequences in another domain (e.g. the same sentences translated to French).
 
 "the cat sat on the mat" -> [Seq2Seq model] -> "le chat etait assis sur le tapis"
